@@ -5,3 +5,33 @@ LONGTUN 888 is a website about investment simulation games. Initially, you will 
 * Built using HTML, CSS, and JavaScript.
 * Data storage and management with MongoDB.
 * Responsive design for desktop and mobile devices.
+## Installation & Setup
+1.  Clone the Repository
+```bash
+https://github.com/peeradonthien/LONGTUN888-Website.git
+cd LUNGTUN888
+```
+2. Install backend
+```
+cd backend
+npm install
+```
+3. Install Frontend
+```bash
+cd frontend
+npm install
+```
+4. Setup Environment Variables on .env
+```bash
+MONGO_URI=your_mongodb_connection_string
+```
+5. Start backend
+```bash
+cd backend
+npm start
+```
+7. Start frontend
+```bash
+cd frontend
+npm run dev
+```
